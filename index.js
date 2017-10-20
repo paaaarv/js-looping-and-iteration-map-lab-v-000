@@ -5,3 +5,12 @@ function lowerCaseDrivers(drivers){
     return driver.toLowerCase();
   });
 };
+
+function nameToAttributes(drivers){
+  return drivers.map(function(driver){
+    return Object.assign({}, driver, {firstName: driver.split(" ")[0], lastName: driver.split(" ")[1]})
+  }
+
+)
+  
+}
