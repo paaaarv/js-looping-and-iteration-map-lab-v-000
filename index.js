@@ -10,6 +10,4 @@ function lowerCaseDrivers(drivers){
     return newArr
 };
 
-function lowerCase(drivers){
-  for
-}
+
