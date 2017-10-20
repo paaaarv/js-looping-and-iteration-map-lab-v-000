@@ -5,5 +5,5 @@ function lowerCaseDrivers(drivers){
   return lowerCase = drivers.map(function(driver){
     return newArr.push(driver.toLowerCase());
 
-  };
+  });
 };
