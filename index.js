@@ -12,3 +12,9 @@ function nameToAttributes(drivers){
     return Object.assign({}, {firstName: driver.split(" ")[0], lastName: driver.split(" ")[1]})
   })
 }
+
+function attributesToPhrase(drivers){
+  return hometown = drivers.map(function(driver){
+    return `${driver.name} is from ${driver.hometown}`
+  })
+}
