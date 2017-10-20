@@ -9,5 +9,4 @@ function lowerCaseDrivers(drivers){
     }
     return newArr
 };
-
-
+};
