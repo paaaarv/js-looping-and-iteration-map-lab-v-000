@@ -3,5 +3,5 @@
 function lowerCaseDrivers(drivers){
 
   return lowerCase = drivers.map(function(driver){
-    return Object.assign({}, driver, {name: driver.name.toLowerCase()})})
+    return Object.assign({}, driver, {name: driver.toLowerCase()})})
 };
