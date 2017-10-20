@@ -6,7 +6,7 @@ function lowerCaseDrivers(drivers){
     for (const element of drivers){
       newArr.push(element.toLowerCase());
     };
-    return newArr
+    return newArr)
 
   };
 };
