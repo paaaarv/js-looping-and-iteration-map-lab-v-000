@@ -4,8 +4,8 @@ function lowerCaseDrivers(drivers){
 
   return lowerCase = drivers.map(function(driver){
     let newArr = []
-    for (const driver of drivers){
-      newArr.push(driver.toLowerCase())
+    for (const element of drivers){
+      newArr.push(element.toLowerCase())
     }
     return newArr
 };
