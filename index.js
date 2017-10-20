@@ -7,7 +7,7 @@ function lowerCaseDrivers(drivers){
     for (const driver of drivers){
       newArr.push(driver.toLowerCase())
     }
-    return Object.assign({}, driver, {name: driver.toLowerCase()})})
+    return newArr
 };
 
 function lowerCase(drivers){
