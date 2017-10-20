@@ -3,5 +3,13 @@
 function lowerCaseDrivers(drivers){
 
   return lowerCase = drivers.map(function(driver){
+    let newArr = []
+    for (const driver of drivers){
+      newArr.push(driver.toLowerCase())
+    }
     return Object.assign({}, driver, {name: driver.toLowerCase()})})
 };
+
+function lowerCase(drivers){
+  for
+}
