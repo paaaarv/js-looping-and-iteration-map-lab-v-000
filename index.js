@@ -3,10 +3,7 @@
 function lowerCaseDrivers(drivers){
   const newArr = [];
   return lowerCase = drivers.map(function(driver){
-    for (const element of drivers){
-      newArr.push(element.toLowerCase());
-    };
-    return newArr
+    return newArr.push(driver.toLowerCase());
 
-  });
+  };
 };
